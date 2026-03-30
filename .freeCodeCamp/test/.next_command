@@ -40,3 +40,6 @@ echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 psql --username=freecodecamp --dbname=postgres
 ./bike-shop.sh
 ./bike-shop.sh
+2
+./bike-shop.sh
+./bike-shop.sh
