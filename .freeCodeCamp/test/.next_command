@@ -43,3 +43,6 @@ psql --username=freecodecamp --dbname=postgres
 2
 ./bike-shop.sh
 ./bike-shop.sh
+pg_dump -cC --inserts -U freecodecamp bikes > bikes.sql
+git init
+git add .
